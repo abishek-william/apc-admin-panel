@@ -105,3 +105,24 @@ a {
     color-scheme: dark;
   }
 }
+
+/* globals.css */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px; /* Adjust as needed */
+}
+
+.content {
+  flex: 1;
+  padding: 20px; /* Adjust as needed */
+}
+
