@@ -4,7 +4,7 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Button } from '@mui/material';
-import DataTable from '@/components/DataTable';
+import DataTable from '@/components/DataTable.js';
 
 const columns = [
   { id: 'name', label: 'Name', minWidth: 170 },

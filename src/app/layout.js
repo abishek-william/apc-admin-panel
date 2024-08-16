@@ -43,8 +43,8 @@ import '@fontsource/roboto/700.css';
 import React from 'react';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
-import NavBar from "@/components/NavBar";
-import SideBar from "@/components/SideBar";
+import NavBar from "@/components/NavBar.js";
+import SideBar from "@/components/SideBar.js";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
